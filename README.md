@@ -4,7 +4,8 @@
 
 [Installing Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
 
-##Oracle cloud resources
+## Oracle cloud resources
+---
 [Terraform with Oracle cloud](https://developer.hashicorp.com/terraform/tutorials/oci-get-started/oci-build)
 
 [Installing Oracle CLI](https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/cliinstall.htm#InstallingCLI__macos_homebrew)
