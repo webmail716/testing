@@ -1,0 +1,10 @@
+<h1>Weather Forecast</h1>
+
+<p><strong>Address:</strong> <%= @weather_forecast.address %></p>
+<p><strong>Current Temperature:</strong> <%= @weather_forecast.current_temp %>°F</p>
+<p><strong>High:</strong> <%= @weather_forecast.high_temp %>°F</p>
+<p><strong>Low:</strong> <%= @weather_forecast.low_temp %>°F</p>
+<p><strong>Forecast:</strong> <%= @weather_forecast.forecast_text %></p>
+<p><em><%= @cached ? "Data retrieved from cache" : "Data fetched fresh" %></em></p>
+
+<%= link_to "Get Another Forecast", new_weather_forecast_path %>
