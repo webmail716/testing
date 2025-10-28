@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Weather Forecast App
 
 A Ruby on Rails application that accepts an address, retrieves current temperature and extended forecast, caches data for 30 minutes by zip code, and displays results with cache indicators.
@@ -44,17 +43,3 @@ A Ruby on Rails application that accepts an address, retrieves current temperatu
 4. Visit `/weather_forecasts/new`
 
 For production deployment, integrate a real weather API (e.g., OpenWeatherMap) in `WeatherForecast.fetch_weather_data` method.
-=======
-[Install ruby and chruby using homebrew](https://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/)
-
-[How to create a ruby gem](https://www.honeybadger.io/blog/create-ruby-gem/)
-
-[Installing Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
-
-## Oracle cloud resources
----
-[Terraform with Oracle cloud](https://developer.hashicorp.com/terraform/tutorials/oci-get-started/oci-build)
-
-[Installing Oracle CLI](https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/cliinstall.htm#InstallingCLI__macos_homebrew)
-
->>>>>>> 23c62bb5f5e20662af31aa26e86263acebd49701
